@@ -1,0 +1,15 @@
+# include <stdio.h>
+int main()
+{
+float b,d,h,g;
+printf("\n Enter basic pay: ");
+scanf("%f" , &b);
+d=0.4*b;
+h=0.2*b;
+g=b+d+h;
+printf("Basic pay= %f\n", b);
+printf("Dearness Allowance=%f\n", d);
+printf("House Rent Allowance=%f\n",h);
+printf("Gross Pay=%f\n",g);
+return 0;
+}
